@@ -27,3 +27,8 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 }
+var d = new Date();
+var n = d.getTime();
+document.getElementById('hrs').innerHTML=n;
+document.getElementById('min').innerHTML=d.getMinutes();
+document.getElementById('seconds').innerHTML=d.getSeconds();
