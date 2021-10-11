@@ -23,9 +23,15 @@
       </ul>,
     </nav>
     <div id = "time">
-      <span id="hrs"></span>
-      <span id="min"></span>
+      <p>Time - </p>
+      <span id="hrs"></span> : 
+      <span id="min"></span> : 
       <span id="seconds"></span>
     </div>
+    <div id='loading'></div>
+    <script>
+      let ss='.';
+      setInterval(()=>{document.getElementById("loading").innerHTML+=ss},1000);
+    </script>
   </body>
 </html>
