@@ -54,6 +54,9 @@ a.active,a:hover{
 #check{
   display: none;
 }
+#time{
+  align-items: right;
+}
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
